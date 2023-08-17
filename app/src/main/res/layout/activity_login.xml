@@ -72,7 +72,7 @@
                 android:id="@+id/button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="148dp"
+                android:layout_marginStart="140dp"
                 android:layout_marginTop="84dp"
                 android:text="LOGIN"
                 app:layout_constraintStart_toStartOf="parent"
@@ -96,11 +96,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="76dp"
         android:text="Don't have an Account?"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/signup"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
