@@ -184,10 +184,12 @@
         android:layout_gravity="center"
         android:layout_marginTop="-20dp"
         android:elevation="30dp">
+
         <Button
+            android:id="@+id/register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Register"/>
+            android:text="Register" />
     </LinearLayout>
 
     <LinearLayout
@@ -206,11 +208,12 @@
         </TextView>
 
         <Button
+            android:id="@+id/login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="-15dp"
             android:background="@android:color/transparent"
             android:text="LOGIN"
-            android:layout_marginTop="-15dp"
             android:textColor="#DB3D91"
             android:textSize="15dp">
 
